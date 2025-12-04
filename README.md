@@ -1,54 +1,38 @@
-# Welcome to your Lovable project
+# Before You Say "Yes" - FeministYes
 
-## Project info
+A <a href="https://www.lifesaverlabs.org">Lifesaver Labs Initiative</a>
 
-**URL**: https://lovable.dev/projects/fa7269d7-f1a4-45ce-9fac-cc50270c000b
+## About This Project
 
-## How can I edit this code?
+**FeministY⁵es** is a thoughtful space for exploring conscious consent in new relationships. Applying principles from Sexual Reliability Engineering (SRE), this project treats intimacy with the same rigor that aviation, surgery, and critical infrastructure use for safety protocols.
 
-There are several ways of editing your application.
+The website provides:
 
-**Use Lovable**
+- **Pre-Intimacy Checklist**: Essential safeguards including safewords, STD testing protocols, ground rules conversations, and birth control assessment
+- **Safety Devices**: Digital tools like safeword apps, consent contracts, and relationship health check-ins
+- **Conversation Starters**: Guidance for discussing boundaries, desires, and expectations
+- **Éducational Resources**: Content inspired by Atul Gawande's *The Checklist Manifesto*, applying systems thinking to intimate relationships
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa7269d7-f1a4-45ce-9fac-cc50270c000b) and start prompting.
+**Core Philosophy**: Sexual and emotional intimacy is "high-voltage" human experience. Just as electricians follow protocols before working with live wires, we should establish safeguards before entering intimate spaces.
 
-Changes made via Lovable will be committed automatically to this repo.
+**URL**: https://www.feministyes.org
 
-**Use your preferred IDE**
+## Development
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project is built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui components.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Local Setup
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -59,15 +43,10 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- Lots and lots of human love and lots and lots of human pain
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/fa7269d7-f1a4-45ce-9fac-cc50270c000b) and click on Share -> Publish.
+After substantial changes, one of the team members at Feminist Y⁵es will have to deploy. Just reach out to team@feministyes.org and we'll check things over one last time and deploy all good and great contribs we're honored to see. 
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+You can also freely branch and fork this project to any domain you wish to provide an alternative vision to Feminist Y⁵es. If you do that, please try to be as careful as you can be to organize your Yes checklist or package proposal for Hippocratic harmlessness.
