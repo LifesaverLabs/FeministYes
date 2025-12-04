@@ -1,4 +1,5 @@
-import { Zap, BookOpen } from "lucide-react";
+import { Zap } from "lucide-react";
+import checklistManifestoCover from "@/assets/checklist-manifesto-cover.jpg";
 
 const HighVoltageIntro = () => {
   return (
@@ -49,18 +50,16 @@ const HighVoltageIntro = () => {
             >
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-sage/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300" />
-                <div className="relative bg-card rounded-2xl p-8 shadow-lg border border-border group-hover:border-primary/30 transition-all duration-300">
-                  <BookOpen className="w-16 h-16 text-primary mx-auto mb-6" />
-                  <h3 className="font-serif text-2xl font-semibold text-foreground text-center mb-2">
-                    The Checklist Manifesto
-                  </h3>
-                  <p className="text-muted-foreground text-center mb-4">
-                    By Atul Gawande
-                  </p>
-                  <p className="text-sm text-muted-foreground text-center">
+                <div className="relative bg-card rounded-2xl p-4 shadow-lg border border-border group-hover:border-primary/30 transition-all duration-300 overflow-hidden">
+                  <img 
+                    src={checklistManifestoCover} 
+                    alt="The Checklist Manifesto by Atul Gawande - Book Cover" 
+                    className="w-full max-w-xs mx-auto rounded-lg shadow-md"
+                  />
+                  <p className="text-sm text-muted-foreground text-center mt-4">
                     The foundational text on why checklists save lives—and relationships.
                   </p>
-                  <div className="mt-6 text-center">
+                  <div className="mt-4 text-center">
                     <span className="inline-flex items-center text-primary font-medium text-sm group-hover:underline">
                       Learn more →
                     </span>
