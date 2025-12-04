@@ -1,4 +1,4 @@
-import { CheckCircle2, MessageSquareHeart, TestTube, BookHeart, Shield, ExternalLink, Heart } from "lucide-react";
+import { CheckCircle2, MessageSquareHeart, TestTube, BookHeart, Shield, ExternalLink, Heart, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const checklistItems = [
@@ -51,6 +51,12 @@ const checklistItems = [
         url: "https://www.theguardian.com/lifeandstyle/2025/nov/13/you-get-more-attention-than-you-would-choose-how-an-unusual-name-can-shape-your-life-for-better-or-worse",
       },
     ],
+  },
+  {
+    icon: Calendar,
+    title: "Long Term Timeline",
+    description: "Before going high-voltage, align on relationship milestones. If engagement within a year matters to you, don't proceed with someone who won't consider it for three years. Discuss your right to propose when you're ready—neither partner should assume only they control pacing or be the sole first-mover on a proposal.",
+    priority: "Essential",
   },
 ];
 
