@@ -17,6 +17,45 @@ The website provides:
 
 **URL**: https://www.feministyes.org
 
+## Contributing⁵
+
+We enthusiastically welcome contributions! This project is released under dual open licensing (CC0 1.0 for content, MIT for code) and dedicated to the **Kohlberg Commons**.
+
+**You are encouraged to:**
+
+- 🍴 **Fork freely** - Create your own variations and adaptations
+- 🌿 **Branch boldly** - Experiment with new approaches and features
+- 💝 **Contribute generously** - Submit pull requests to improve the commons
+- 🌍 **Adapt thoughtfully** - Translate and contextualize for different communities
+- 🔬 **Innovate openly** - Build new tools and resources on this foundation
+
+Whether you want to:
+- Improve the checklist items or add new safety protocols
+- Enhance the UI/UX design
+- Add translations for other languages
+- Create companion tools or resources
+- Build entirely new approaches to consent education
+
+...you have our blessing and encouragement! The only request we make is that derivative works maintain a commitment to **Hippocratic harmlessness**.
+
+See [LICENSE.md](LICENSE.md) for full licensing details.
+
+### How to Contribute Back to This Repo
+
+1. Create a feature branch (`git checkout -b feature/amazing-contribution`)
+2. Make your changes
+3. Commit with clear messages
+4. Push your branch
+5. Open a Pull Request
+
+For substantial changes, reach out to team@feministyes.org - we're excited to collaborate!
+
+### Forking for Independent Projects
+
+If you want to create your own independent version, simply fork this repository to any domain you wish. We encourage diverse approaches to this work, and we also really want—if at all possible—to push together with any future variants for a higher "core standard" on a feminist "Yes!"
+
+**Please think twice before forking just to water steps down.** Any steps or suggestions included here are here for a reason. See and study⁵ [Chesterton's Fence](https://fs.blog/chestertons-fence/) before you rush to tear any pieces or peaces of this down.
+
 ## Development
 
 This project is built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui components.
