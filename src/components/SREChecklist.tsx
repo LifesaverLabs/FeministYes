@@ -1,4 +1,4 @@
-import { CheckCircle2, MessageSquareHeart, TestTube, BookHeart, Shield, ExternalLink } from "lucide-react";
+import { CheckCircle2, MessageSquareHeart, TestTube, BookHeart, Shield, ExternalLink, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const checklistItems = [
@@ -30,6 +30,13 @@ const checklistItems = [
       text: "Calculate Your Birth Control Score",
       url: "https://birthcontrol.safeword.us",
     },
+  },
+  {
+    icon: Heart,
+    title: "Pick a Name",
+    subtitle: "(For Heterosexual Couples)",
+    description: "Even with three-layer birth control, there's still a chance of pregnancy. Pick a name together as part of your relationship conception process. We recommend 'Lucky' or 'Chance' as wonderful names—a boom of Lucky and Chance babies would remind our community of the potential grace that chance conceptions carry.",
+    priority: "Recommended",
   },
 ];
 
