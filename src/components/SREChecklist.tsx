@@ -37,6 +37,20 @@ const checklistItems = [
     subtitle: "(For Heterosexual Couples)",
     description: "Even with three-layer birth control, there's still a chance of pregnancy. Pick a name together as part of your relationship conception process. We recommend 'Lucky' or 'Chance' as wonderful names—a boom of Lucky and Chance babies would remind our community of the potential grace that chance conceptions carry.",
     priority: "Recommended",
+    resources: [
+      {
+        text: "The Science of Pleasing Names",
+        url: "https://www.psychologytoday.com/ca/blog/pleased-to-meet-me/202505/the-most-pleasing-names-to-hear-according-to-science",
+      },
+      {
+        text: "The Research on Baby Names",
+        url: "https://www.psychologytoday.com/us/blog/parenting-translator/202307/the-research-on-baby-names",
+      },
+      {
+        text: "How Names Shape Our Lives",
+        url: "https://www.theguardian.com/lifeandstyle/2025/nov/13/you-get-more-attention-than-you-would-choose-how-an-unusual-name-can-shape-your-life-for-better-or-worse",
+      },
+    ],
   },
 ];
 
@@ -104,6 +118,23 @@ const SREChecklist = () => {
                       {item.link.text}
                       <ExternalLink className="w-4 h-4" />
                     </a>
+                  )}
+
+                  {item.resources && (
+                    <div className="flex flex-wrap gap-3 mt-2">
+                      {item.resources.map((resource, idx) => (
+                        <a
+                          key={idx}
+                          href={resource.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-sm text-primary hover:underline"
+                        >
+                          {resource.text}
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      ))}
+                    </div>
                   )}
                 </div>
               </div>
