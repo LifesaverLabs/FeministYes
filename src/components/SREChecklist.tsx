@@ -12,10 +12,10 @@ import { Button } from "@/components/ui/button";
 
 const checklistItems = [
   {
-    icon: MessageSquareHeart,
-    title: "Establish Safewords",
+    icon: Calendar,
+    title: "Long Term Timeline",
     description:
-      "Agree on clear verbal and non-verbal signals to pause or stop. Always use digital safeword support through apps designed for this purpose in your first few, ideally at least your first five, intimate encounters, until there are solid patterns in place that you trust and you've tested your partner's general sensitivity, safeword sensitivity, and response.",
+      "Before going high-voltage, align on relationship milestones. If engagement within a year matters to you, don't proceed with someone who won't consider it for three years. Discuss your right to propose when you're ready—neither partner should assume only they control pacing or be the sole first-mover on a proposal.",
     priority: "Essential",
   },
   {
@@ -37,7 +37,7 @@ const checklistItems = [
     title: "Multilayer Birth Control Assessment",
     subtitle: "(For Heterosexual Couples)",
     description:
-      "Go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 harmlessness through layered contraceptive methods.",
+      "Go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 harmlessness through triple-layered contraceptive methods.",
     priority: "Critical",
     link: {
       text: "Calculate Your Birth Control Score",
@@ -67,10 +67,10 @@ const checklistItems = [
     ],
   },
   {
-    icon: Calendar,
-    title: "Long Term Timeline",
+    icon: MessageSquareHeart,
+    title: "Establish Safewords",
     description:
-      "Before going high-voltage, align on relationship milestones. If engagement within a year matters to you, don't proceed with someone who won't consider it for three years. Discuss your right to propose when you're ready—neither partner should assume only they control pacing or be the sole first-mover on a proposal.",
+      "Agree on clear verbal and non-verbal signals to pause or stop. Always use digital safeword support through apps designed for this purpose in your first few, ideally at least your first five, intimate encounters, until there are solid patterns in place that you trust during an aroused empathy¹ gap and you've tested your partner's general sensitivity, safeword sensitivity, and response.",
     priority: "Essential",
   },
 ];
