@@ -17,6 +17,12 @@ const checklistItems = [
     description:
       "Before going high-voltage, align on relationship milestones. If engagement within a year matters to you, don't proceed with someone who won't consider it for three years. Discuss your right to ritefully propose when you're ready—neither partner should assume only they control pacing or be the sole first-mover on a proposal. How many countless years of womens' lives have been wasted waiting for years for proposal-privileged partners to propose? If you're already engaged or married when you first get intimate, that's a remarkable choice — you've already achieved the milestones so many struggle with.",
     priority: "Essential",
+    resources: [
+      {
+        text: "Vision 50/50: Reaching Proposal Equality",
+        url: "https://www.youtube.com/watch?v=rmLT71uvu3U",
+      },
+    ],
   },
   {
     icon: TestTube,
