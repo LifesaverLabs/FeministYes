@@ -42,8 +42,12 @@ const DeeperThoughts = () => {
                     divorce-correlated complex, expensive wedding affair
                   </a>
                 </u>
-                . Misaligned expectations about relationship progression are among the most common sources of heartbreak
-                and wasted time in modern dating.
+                . Do you really want to burn 3 years of your life you'll never be able to get back with children and
+                grandchildren? On the other hand, longer courtships of 2-3 years tend to correlate with lower divorce
+                rates long-term in secular marriages. It's a trade-off, and if you're post-30 and want to birth kids
+                together, you might not have the luxury of dating for 2-3 years. But at least make sure you're on the
+                same page about long term timeline. Misaligned expectations about relationship progression are among the
+                most common sources of heartbreak and wasted time in modern dating.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 High-voltage intimacy creates powerful bonds. Before forming those bonds, both partners deserve clarity
