@@ -13,9 +13,9 @@ import { Button } from "@/components/ui/button";
 const checklistItems = [
   {
     icon: Calendar,
-    title: "Long Term Timeline",
+    title: "Long Term Timeline Alignment",
     description:
-      "Before going high-voltage, align on relationship milestones. If engagement within a year matters to you, don't proceed with someone who won't consider it for three years. Discuss your right to ritefully propose when you're ready—neither partner should assume only they control pacing or be the sole first-mover on a proposal. How many countless years of womens' lives have been wasted waiting for years for proposal-privileged partners to propose? If you're already engaged or married when you first get intimate, that's a remarkable choice — you've already achieved the milestones so many struggle with.",
+      "Before going high-voltage, align on relationship milestones. If engagement within 1 year and marriage at 1.5 years matters to you, don't proceed with someone who won't accept or make any proposal for 3 years. Discuss your equal right to ritefully propose when you're ready—there should be no gender bias in who controls pacing or be the sole first-mover on the step that defines the rest of your life. How many countless years of womens' lives have been wasted waiting and waiting endlessly for proposal-privileged partners to propose? If you're already engaged or married when you first get intimate, that's a remarkable choice — you've already achieved the milestones so many struggle with.",
     priority: "Essential",
     resources: [
       {
