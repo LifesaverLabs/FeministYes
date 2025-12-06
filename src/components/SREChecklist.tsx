@@ -44,7 +44,7 @@ const checklistItems = [
     title: "Multilayer Birth Control Assessment",
     subtitle: "(For Heterosexual Couples)",
     description:
-      "If you don't want to get pregnant, go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 surprise pregnancy prevention through triple- or quadruply-layered contraceptive methods. The difference between 97% perfect use and 99.95% typical use effective is enormously huge - a difference of over 3,000 surprise pregnancies per 10,000 couples per decade",
+      "If you don't want to get pregnant, go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 surprise pregnancy prevention through triple- or quadruply-layered contraceptive methods. The difference between condom-only-reliance ('97% effective in perfect use but 85% in typical use') and triple- or quad-layer IUD+2/+3 99.95%+ reliable typical use effectiveness is enormously huge - a difference of almost 15,000 surprise pregnancies per decade per 10,000 sexually active couples",
     priority: "Critical",
     checklist: [
       "(Male Layer 1) Always always wear a male condom",
