@@ -82,7 +82,7 @@ const checklistItems = [
     icon: MessageSquareHeart,
     title: "Establish Firm Safewords",
     description:
-      "Agree on clear verbal and non-verbal signals to pause or stop. Always use digital safeword support through apps designed for this purpose in your first few, ideally at least your first five, intimate encounters, until there are solid patterns in place that you trust during an aroused empathy¹ gap and you've tested your partner's general sensitivity, safeword sensitivity, and response.",
+      "Agree on clear verbal and non-verbal signals to pause or stop. Always always use digital safeword support through apps designed for this purpose in your first few, ideally at least your first five, intimate encounters, until there are solid patterns in place that you trust during an aroused empathy¹ gap and you've tested your partner's general sensitivity, safeword sensitivity, and response.",
     priority: "Essential",
   },
 ];
