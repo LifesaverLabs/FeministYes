@@ -37,11 +37,11 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center gap-8">
           <a 
-            href="#principles" 
-            onClick={(e) => handleAnchorClick(e, "principles")}
+            href="#sre-checklist" 
+            onClick={(e) => handleAnchorClick(e, "sre-checklist")}
             className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
           >
-            Principles
+            Yes Checklist
           </a>
           <a 
             href="#conversations" 
