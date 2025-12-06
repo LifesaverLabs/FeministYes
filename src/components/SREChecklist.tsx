@@ -49,7 +49,7 @@ const checklistItems = [
     checklist: [
       "(Male Layer 1) Always always wear a male condom",
       "(Male Layer 2) Always always as a male pull-out",
-      "(Female Layer 3-4) Pick at least one and better two compatible exceptionally⁵-reliable method(s) of female contraception consistent with your faith—in most cases we urgently suggest an IUD (nonhormonal copper or hormonal) without any daily or monthly thought or maintenance. Very, very careful daily symptothermal natural fertility planning can be added to Layer 3 or 4 beautifully too if you're diligent about managing your data in a NFP app.",
+      "(Female Layer 3-4) Pick at least one and better two compatible exceptionally⁵-reliable method(s) of female contraception consistent with your faith—in most cases we urgently suggest an IUD (nonhormonal copper or hormonal) without any daily or monthly thought or maintenance. Fair warning: They might hurt to put in; ask for pain prevention up front. Very, very careful daily symptothermal natural fertility planning can be added to Layer 3 or 4 beautifully too if you're diligent about managing your data in a NFP app.",
     ],
     link: {
       text: "Calculate Your Birth Control Score",
