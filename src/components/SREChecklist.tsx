@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   CheckCircle2,
   MessageSquareHeart,
@@ -11,7 +12,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
+import { Checkbox } from "@/components/ui/checkbox";
 const checklistItems = [
   {
     icon: Calendar,
@@ -87,6 +88,16 @@ const checklistItems = [
 ];
 
 const SREChecklist = () => {
+  const [birthControlChecks, setBirthControlChecks] = useState<boolean[]>([false, false, false]);
+
+  const handleCheckChange = (index: number, checked: boolean) => {
+    setBirthControlChecks(prev => {
+      const newChecks = [...prev];
+      newChecks[index] = checked;
+      return newChecks;
+    });
+  };
+
   return (
     <section id="sre-checklist" className="py-24 bg-card">
       <div className="container-wide">
@@ -135,11 +146,21 @@ const SREChecklist = () => {
                   <p className="text-muted-foreground leading-relaxed mb-4">{item.description}</p>
 
                   {item.checklist && (
-                    <ul className="space-y-2 mb-4 text-sm text-muted-foreground">
+                    <ul className="space-y-3 mb-4 text-sm text-muted-foreground">
                       {item.checklist.map((checkItem, idx) => (
-                        <li key={idx} className="flex items-start gap-2">
-                          <span className="text-primary mt-0.5">☐</span>
-                          <span>{checkItem}</span>
+                        <li key={idx} className="flex items-start gap-3">
+                          <Checkbox
+                            id={`birth-control-${idx}`}
+                            checked={birthControlChecks[idx]}
+                            onCheckedChange={(checked) => handleCheckChange(idx, checked as boolean)}
+                            className="mt-0.5"
+                          />
+                          <label
+                            htmlFor={`birth-control-${idx}`}
+                            className={`cursor-pointer transition-colors ${birthControlChecks[idx] ? 'text-foreground line-through opacity-70' : ''}`}
+                          >
+                            {checkItem}
+                          </label>
                         </li>
                       ))}
                     </ul>
