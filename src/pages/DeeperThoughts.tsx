@@ -9,10 +9,7 @@ const DeeperThoughts = () => {
       <Header />
       <main className="pt-24 pb-16">
         <div className="container-wide max-w-4xl">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-primary hover:underline mb-8"
-          >
+          <Link to="/" className="inline-flex items-center gap-2 text-primary hover:underline mb-8">
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
@@ -22,9 +19,7 @@ const DeeperThoughts = () => {
               <div className="w-12 h-12 rounded-xl gradient-coral flex items-center justify-center">
                 <Calendar className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary/10 text-primary">
-                Essential
-              </span>
+              <span className="text-xs font-semibold px-3 py-1 rounded-full bg-primary/10 text-primary">Essential</span>
             </div>
 
             <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
@@ -32,40 +27,47 @@ const DeeperThoughts = () => {
             </h1>
 
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Before going high-voltage, ensure you and your partner share compatible visions for your relationship's future milestones.
+              Before going high-voltage, ensure you and your partner share compatible visions for your relationship's
+              future milestones.
             </p>
 
             <div className="bg-card border-2 border-border rounded-2xl p-8 mb-12">
-              <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">
-                Why Timeline Alignment Matters
-              </h2>
+              <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">Why Timeline Alignment Matters</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                If engagement within 1 year and a simple, stress-free wedding ceremony 2 months later matters to you, don't proceed with someone who won't accept or make any proposal for 3 years and then adds another 9 months after that for a <a href="https://www.harpersbazaar.com/uk/brides/a22085716/couples-who-have-expensive-weddings-are-more-likely-to-get-divorced/"></a>divorce-correlated complex, expensive wedding affair</a>. Misaligned expectations about relationship progression are among the most common sources of heartbreak and wasted time in modern dating.
+                If engagement within 1 year and a simple, stress-free wedding ceremony 2 months later matters to you,
+                don't proceed with someone who won't accept or make any proposal for 3 years and then adds another 9
+                months after that for a{" "}
+                <a href="https://www.harpersbazaar.com/uk/brides/a22085716/couples-who-have-expensive-weddings-are-more-likely-to-get-divorced/">
+                  divorce-correlated complex, expensive wedding affair
+                </a>
+                . Misaligned expectations about relationship progression are among the most common sources of heartbreak
+                and wasted time in modern dating.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                High-voltage intimacy creates powerful bonds. Before forming those bonds, both partners deserve clarity on whether they're building toward the same destination.
+                High-voltage intimacy creates powerful bonds. Before forming those bonds, both partners deserve clarity
+                on whether they're building toward the same destination.
               </p>
             </div>
 
-            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">
-              The Equal Right to Propose
-            </h2>
+            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">The Equal Right to Propose</h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Discuss your equal right to ritefully propose when you're ready—there should be no gender bias in who controls pacing or who can be the sole first-mover on the step that defines the rest of your life.
+              Discuss your equal right to ritefully propose when you're ready—there should be no gender bias in who
+              controls pacing or who can be the sole first-mover on the step that defines the rest of your life.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              How many countless years of people's lives have been wasted waiting endlessly for proposal-privileged partners to propose? The tradition that only one partner can propose creates an artificial power imbalance that serves no one's genuine interests.
+              How many countless years of people's lives have been wasted waiting endlessly for proposal-privileged
+              partners to propose? The tradition that only one partner can propose creates an artificial power imbalance
+              that serves no one's genuine interests.
             </p>
 
             <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-xl mb-8">
               <p className="text-foreground font-medium italic">
-                "If you're already engaged or married when you first get intimate, that's a remarkable choice—you've already achieved the milestones so many struggle with."
+                "If you're already engaged or married when you first get intimate, that's a remarkable choice—you've
+                already achieved the milestones so many struggle with."
               </p>
             </div>
 
-            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">
-              Key Questions to Discuss
-            </h2>
+            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">Key Questions to Discuss</h2>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold">1.</span>
@@ -81,13 +83,13 @@ const DeeperThoughts = () => {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold">4.</span>
-                <span className="text-muted-foreground">If one partner feels ready before the other, how will we handle that conversation?</span>
+                <span className="text-muted-foreground">
+                  If one partner feels ready before the other, how will we handle that conversation?
+                </span>
               </li>
             </ul>
 
-            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">
-              Resources
-            </h2>
+            <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">Resources</h2>
             <div className="flex flex-col gap-3">
               <a
                 href="https://www.youtube.com/watch?v=rmLT71uvu3U"
