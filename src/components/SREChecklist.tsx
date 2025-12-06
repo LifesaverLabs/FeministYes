@@ -7,26 +7,22 @@ import {
   ExternalLink,
   Heart,
   Calendar,
+  ArrowRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const checklistItems = [
   {
     icon: Calendar,
     title: "Long Term Timeline Alignment",
     description:
-      "Before going high-voltage, align on relationship milestones. If engagement within 1 year and marriage at 1.5 years matters to you, don't proceed with someone who won't accept or make any proposal for 3 years. Discuss your equal right to ritefully propose when you're ready—there should be no gender bias in who controls pacing or be the sole first-mover on the step that defines the rest of your life. How many countless years of womens' lives have been wasted waiting and waiting endlessly for proposal-privileged partners to propose? If you're already engaged or married when you first get intimate, that's a remarkable choice — you've already achieved the milestones so many struggle with.",
+      "Align on relationship milestones before going high-voltage. Ensure you share compatible timelines for engagement and marriage, and discuss your equal right to propose.",
     priority: "Essential",
-    resources: [
-      {
-        text: "Vision 50/50: Reaching Proposal Equality",
-        url: "https://www.youtube.com/watch?v=rmLT71uvu3U",
-      },
-      {
-        text: "Very simple, very sweet: Break the Glass Time Floor",
-        url: "https://www.youtube.com/watch?v=3HF35T0zlVU",
-      },
-    ],
+    internalLink: {
+      text: "Read More",
+      url: "/deeper-thoughts",
+    },
   },
   {
     icon: TestTube,
@@ -143,6 +139,16 @@ const SREChecklist = () => {
                       {item.link.text}
                       <ExternalLink className="w-4 h-4" />
                     </a>
+                  )}
+
+                  {item.internalLink && (
+                    <Link
+                      to={item.internalLink.url}
+                      className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
+                    >
+                      {item.internalLink.text}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
                   )}
 
                   {item.resources && (
