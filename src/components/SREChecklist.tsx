@@ -45,6 +45,11 @@ const checklistItems = [
     description:
       "Go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 harmlessness through triple-layered contraceptive methods.",
     priority: "Critical",
+    checklist: [
+      "Always always wear a male condom (Male Layer 1)",
+      "Always always as a male pull-out (Male Layer 2)",
+      "Pick at least one and possibly two exceptionally⁵-reliable method(s) of female contraception consistent with your faith—we urgently recommend an IUD (nonhormonal copper or hormonal) that doesn't require any daily thought or maintenance once started (Female Layer 3). Very, very careful daily symptothermal natural fertility planning can work beautifully too if you're super-careful about managing your data in the app.",
+    ],
     link: {
       text: "Calculate Your Birth Control Score",
       url: "https://birthcontrol.safeword.us",
@@ -128,6 +133,17 @@ const SREChecklist = () => {
                   {item.subtitle && <p className="text-sm text-muted-foreground mb-2">{item.subtitle}</p>}
 
                   <p className="text-muted-foreground leading-relaxed mb-4">{item.description}</p>
+
+                  {item.checklist && (
+                    <ul className="space-y-2 mb-4 text-sm text-muted-foreground">
+                      {item.checklist.map((checkItem, idx) => (
+                        <li key={idx} className="flex items-start gap-2">
+                          <span className="text-primary mt-0.5">☐</span>
+                          <span>{checkItem}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
 
                   {item.link && (
                     <a
