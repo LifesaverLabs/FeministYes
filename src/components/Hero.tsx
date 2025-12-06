@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Heart, MessageCircle } from "lucide-react";
 
 const Hero = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
       {/* Background decoration */}
@@ -38,11 +45,11 @@ const Hero = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in"
           style={{ animationDelay: "0.6s" }}
         >
-          <Button variant="hero" size="xl">
+          <Button variant="hero" size="xl" onClick={() => scrollToSection("conversations")}>
             <MessageCircle className="w-5 h-5" />
             Start the Conversation
           </Button>
-          <Button variant="outline" size="xl">
+          <Button variant="outline" size="xl" onClick={() => scrollToSection("principles")}>
             Read Our Principles
           </Button>
         </div>
