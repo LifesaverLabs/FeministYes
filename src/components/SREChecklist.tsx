@@ -22,6 +22,10 @@ const checklistItems = [
         text: "Vision 50/50: Reaching Proposal Equality",
         url: "https://www.youtube.com/watch?v=rmLT71uvu3U",
       },
+      {
+        text: "Breaking the Glass Time Ceiling",
+        url: "https://www.youtube.com/watch?v=3HF35T0zlVU",
+      },
     ],
   },
   {
