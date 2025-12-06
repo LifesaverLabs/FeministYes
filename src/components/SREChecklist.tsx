@@ -44,12 +44,12 @@ const checklistItems = [
     title: "Multilayer Birth Control Assessment",
     subtitle: "(For Heterosexual Couples)",
     description:
-      "Go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 harmlessness through triple-layered contraceptive methods.",
+      "If you don't want to get pregnant, go beyond simple percentages. SRE-grade protection aims for 1-in-10,000 surprise pregnancy prevention through triple- or quadruply-layered contraceptive methods.",
     priority: "Critical",
     checklist: [
       "(Male Layer 1) Always always wear a male condom",
-      "(Female Layer 3-4) Pick at least one and better two compatible exceptionally⁵-reliable method(s) of female contraception consistent with your faith—in most cases we urgently suggest an IUD (nonhormonal copper or hormonal) without any daily or monthly thought or maintenance. Very, very careful daily symptothermal natural fertility planning can be added to Layer 3 or 4 beautifully too if you're diligent about managing your data in a NFP app.",
       "(Male Layer 2) Always always as a male pull-out",
+      "(Female Layer 3-4) Pick at least one and better two compatible exceptionally⁵-reliable method(s) of female contraception consistent with your faith—in most cases we urgently suggest an IUD (nonhormonal copper or hormonal) without any daily or monthly thought or maintenance. Very, very careful daily symptothermal natural fertility planning can be added to Layer 3 or 4 beautifully too if you're diligent about managing your data in a NFP app.",
     ],
     link: {
       text: "Calculate Your Birth Control Score",
@@ -91,7 +91,7 @@ const SREChecklist = () => {
   const [birthControlChecks, setBirthControlChecks] = useState<boolean[]>([false, false, false]);
 
   const handleCheckChange = (index: number, checked: boolean) => {
-    setBirthControlChecks(prev => {
+    setBirthControlChecks((prev) => {
       const newChecks = [...prev];
       newChecks[index] = checked;
       return newChecks;
@@ -157,7 +157,7 @@ const SREChecklist = () => {
                           />
                           <label
                             htmlFor={`birth-control-${idx}`}
-                            className={`cursor-pointer transition-colors ${birthControlChecks[idx] ? 'text-foreground line-through opacity-70' : ''}`}
+                            className={`cursor-pointer transition-colors ${birthControlChecks[idx] ? "text-foreground line-through opacity-70" : ""}`}
                           >
                             {checkItem}
                           </label>
