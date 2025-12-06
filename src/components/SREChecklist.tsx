@@ -90,7 +90,7 @@ const SREChecklist = () => {
             Sexual Reliability Engineering
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-4">
-            The Pre-Intimacy Checklist
+            The Pre-Intimacy Yes Checklist
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Before unbuttoning or disrobing, complete these essential safeguards. Like any high-voltage work, the
