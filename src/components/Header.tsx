@@ -12,18 +12,18 @@ const Header = () => {
         </Link>
         
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#principles" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+          <Link to="/#principles" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
             Principles
-          </a>
-          <a href="#conversations" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+          </Link>
+          <Link to="/#conversations" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
             Conversations
-          </a>
+          </Link>
           <Link to="/deeper-thoughts" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
             Deeper Thoughts
           </Link>
-          <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+          <Link to="/#about" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
             About
-          </a>
+          </Link>
         </nav>
 
         <Button variant="hero" size="sm">
