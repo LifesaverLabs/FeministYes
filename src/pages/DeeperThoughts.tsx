@@ -37,9 +37,11 @@ const DeeperThoughts = () => {
                 If engagement within 1 year and a simple, stress-free wedding ceremony 2 months later matters to you,
                 don't proceed with someone who won't accept or make any proposal for 3 years and then adds another 9
                 months after that for a{" "}
-                <a href="https://www.harpersbazaar.com/uk/brides/a22085716/couples-who-have-expensive-weddings-are-more-likely-to-get-divorced/">
-                  divorce-correlated complex, expensive wedding affair
-                </a>
+                <u>
+                  <a href="https://www.harpersbazaar.com/uk/brides/a22085716/couples-who-have-expensive-weddings-are-more-likely-to-get-divorced/">
+                    divorce-correlated complex, expensive wedding affair
+                  </a>
+                </u>
                 . Misaligned expectations about relationship progression are among the most common sources of heartbreak
                 and wasted time in modern dating.
               </p>
