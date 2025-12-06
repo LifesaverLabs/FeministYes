@@ -23,7 +23,7 @@ const checklistItems = [
         url: "https://www.youtube.com/watch?v=rmLT71uvu3U",
       },
       {
-        text: "Breaking the Glass Time Ceiling",
+        text: "Very simple, very sweet: Break the Glass Time Floor",
         url: "https://www.youtube.com/watch?v=3HF35T0zlVU",
       },
     ],
