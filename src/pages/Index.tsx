@@ -15,8 +15,8 @@ const Index = () => {
       <main>
         <Hero />
         <HighVoltageIntro />
-        <Principles />
         <SREChecklist />
+        <Principles />
         <SafetyDevices />
         <Conversations />
         <About />
