@@ -13,6 +13,18 @@ const hardwareDevices = [
     url: "https://www.lorissos.com/home",
     type: "Wearable Device",
   },
+  {
+    name: "Flare",
+    description: "Stylish safety bracelet with a hidden button that sends your location to chosen contacts and can trigger a fake phone call.",
+    url: "https://getflare.com/",
+    type: "Smart Bracelet",
+  },
+  {
+    name: "Safelet",
+    description: "Wearable safety bracelet that silently alerts your guardians with your exact location when you need help.",
+    url: "https://www.safelet.com/",
+    type: "Safety Bracelet",
+  },
 ];
 
 const softwareApps = [
